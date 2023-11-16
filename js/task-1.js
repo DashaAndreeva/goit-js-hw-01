@@ -1,3 +1,4 @@
+"use strict";
 let quantity = 5;
 let pricePerDroid = 3000;
 const totalPrice = quantity * pricePerDroid;

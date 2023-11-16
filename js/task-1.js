@@ -1,15 +1,4 @@
 "use strict";
-let quantity;
-let pricePerDroid;
-
-quantity = 5;
-pricePerDroid = 3000;
-
-quantity = 3;
-pricePerDroid = 1000;
-
-quantity = 10;
-pricePerDroid = 500;
 
 function makeTransaction(quantity, pricePerDroid) {
   const totalPrice = quantity * pricePerDroid;

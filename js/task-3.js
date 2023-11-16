@@ -1,15 +1,10 @@
 "use strict";
 
-let content;
-let padding;
-let border;
-
 function getElementWidth(content, padding, border) {
   let contentWidth = Number.parseFloat(content);
   let paddingWidth = Number.parseFloat(padding);
   let borderWidth = Number.parseFloat(border);
-  let elementWidth = contentWidth + paddingWidth * 2 + borderWidth * 2;
-  return elementWidth;
+  return contentWidth + paddingWidth * 2 + borderWidth * 2;
 }
 
 console.log(getElementWidth("50px", "8px", "4px")); // 74
